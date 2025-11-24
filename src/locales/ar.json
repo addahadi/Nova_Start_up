@@ -1,0 +1,75 @@
+{
+  "navigation": {
+    "home": "الرئيسية"
+  },
+  "departments": {
+    "title": "اختر قسمك",
+    "subtitle": "اختر القسم الذي تريد الانضمام إليه",
+    "reasonDialog": {
+      "title": "لماذا تريد الانضمام إلى هذا القسم؟",
+      "placeholder": "اكتب سببك هنا...",
+      "submit": "إرسال",
+      "cancel": "إلغاء"
+    },
+    "selectedDepartment": "القسم المختار:",
+    "list": {
+      "organization": {
+        "name": "التنظيم",
+        "description": "تخطيط الفعاليات وتنسيق الأنشطة"
+      },
+      "development": {
+        "name": "التطوير",
+        "description": "بناء الحلول الرقمية والمواقع الإلكترونية"
+      },
+      "design": {
+        "name": "التصميم",
+        "description": "إنشاء المحتوى المرئي والهوية البصرية"
+      },
+      "media": {
+        "name": "الإعلام",
+        "description": "إنتاج الفيديو والتصوير"
+      },
+      "marketing": {
+        "name": "التسويق",
+        "description": "الترويج للفعاليات وإدارة وسائل التواصل الاجتماعي"
+      },
+      "innovation": {
+        "name": "الابتكار",
+        "description": "البحث وتطوير الأفكار الجديدة"
+      }
+    }
+  },
+  "registration": {
+    "title": "نوفا ستارت-أب",
+    "description": "مساحة انطلاقتك نحو النجاح: تعلّم كيف تحوّل فكرتك إلى مشروع حقيقي ومؤثّر من خلال قصص ملهمة ورؤى الخبراء.",
+    "formTitle": "نموذج التسجيل",
+    "fullName": "الاسم الكامل",
+    "fullNamePlaceholder": "أدخل اسمك الكامل",
+    "phone": "رقم الهاتف",
+    "phonePlaceholder": "مثال: 0123456789",
+    "email": "البريد الإلكتروني",
+    "emailPlaceholder": "بريدك@الجامعة.edu",
+    "speciality": "التخصص الجامعي",
+    "specialityPlaceholder": "مثال: علوم الحاسوب",
+    "eventReason": "ما الذي دفعك للحضور إلى هذا الحدث؟",
+    "eventReasonPlaceholder": "شارك ما الذي دفعك للحضور إلى هذا الحدث...",
+    "hasProject": "هل لديك مشروع تعمل عليه الآن؟",
+    "hasProjectPlaceholder": "اختر نعم أو لا",
+    "yes": "نعم",
+    "no": "لا",
+    "challenges": "ما هي المشاكل أو التحدّيات التي تواجهها حاليًا؟",
+    "challengesPlaceholder": "صف المشاكل أو التحدّيات التي تواجهها حاليًا...",
+    "submit": "إرسال التسجيل"
+  },
+  "success": {
+    "title": "تم بنجاح!",
+    "message": "تم تقديم تسجيلك بنجاح."
+  },
+  "countdown": {
+    "title": "العد التنازلي للحدث",
+    "days": "أيام",
+    "hours": "ساعات",
+    "minutes": "دقائق",
+    "seconds": "ثوان"
+  }
+}

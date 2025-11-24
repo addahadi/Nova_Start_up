@@ -1,0 +1,75 @@
+{
+  "navigation": {
+    "home": "Home"
+  },
+  "departments": {
+    "title": "Choose Your Department",
+    "subtitle": "Select the department you'd like to join",
+    "reasonDialog": {
+      "title": "Why do you want to join this department?",
+      "placeholder": "Enter your reason here...",
+      "submit": "Submit",
+      "cancel": "Cancel"
+    },
+    "selectedDepartment": "Department selected:",
+    "list": {
+      "organization": {
+        "name": "Organization",
+        "description": "Plan events and coordinate activities"
+      },
+      "development": {
+        "name": "Development",
+        "description": "Build digital solutions and websites"
+      },
+      "design": {
+        "name": "Design",
+        "description": "Create visual content and branding"
+      },
+      "media": {
+        "name": "Media",
+        "description": "Produce videos and photography"
+      },
+      "marketing": {
+        "name": "Marketing",
+        "description": "Promote events and manage social media"
+      },
+      "innovation": {
+        "name": "Innovation",
+        "description": "Research and develop new ideas"
+      }
+    }
+  },
+  "registration": {
+    "title": "Nova start-up",
+    "description": "A space to launch your path to success: Learn how to turn your idea into a real and impactful project through inspiring stories and expert insights",
+    "formTitle": "Registration Form",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "phone": "Phone Number",
+    "phonePlaceholder": "+1 234 567 8900",
+    "email": "Email",
+    "emailPlaceholder": "your.email@university.edu",
+    "speciality": "University Speciality",
+    "specialityPlaceholder": "e.g., Computer Science",
+    "eventReason": "What motivated you to attend this event?",
+    "eventReasonPlaceholder": "Share what motivated you to attend this event...",
+    "hasProject": "Do you have a project you're currently working on?",
+    "hasProjectPlaceholder": "Select Yes or No",
+    "yes": "Yes",
+    "no": "No",
+    "challenges": "What problems or challenges are you currently facing?",
+    "challengesPlaceholder": "Describe the problems or challenges you're facing...",
+    "submit": "Submit Registration"
+  },
+  "success": {
+    "title": "Success!",
+    "message": "Your registration has been submitted successfully."
+  },
+  "countdown": {
+    "title": "Countdown to Event",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
+  }
+}
