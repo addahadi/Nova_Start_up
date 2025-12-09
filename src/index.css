@@ -10,51 +10,51 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* RGB values for gradients */
-    --primary-rgb: 0, 255, 127;
-    --accent-rgb: 0, 255, 149;
-    --background: 220 26% 6%;
-    --foreground: 180 100% 95%;
+    --primary-rgb: 26, 166, 89;
+    --accent-rgb: 26, 153, 89;
+    --background: 0 0% 100%;
+    --foreground: 220 26% 10%;
 
-    --card: 220 20% 10%;
-    --card-foreground: 180 100% 95%;
+    --card: 0 0% 98%;
+    --card-foreground: 220 26% 10%;
 
-    --popover: 220 20% 12%;
-    --popover-foreground: 180 100% 95%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 26% 10%;
 
-    --primary: 150 100% 50%;
-    --primary-foreground: 220 26% 6%;
+    --primary: 150 80% 40%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 220 18% 16%;
-    --secondary-foreground: 180 100% 95%;
+    --secondary: 220 10% 95%;
+    --secondary-foreground: 220 26% 10%;
 
-    --muted: 220 18% 16%;
-    --muted-foreground: 180 10% 65%;
+    --muted: 220 10% 95%;
+    --muted-foreground: 220 10% 40%;
 
-    --accent: 150 100% 50%;
-    --accent-foreground: 220 26% 6%;
+    --accent: 150 80% 40%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 72% 51%;
-    --destructive-foreground: 180 100% 95%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 220 18% 20%;
-    --input: 220 18% 16%;
-    --ring: 150 100% 50%;
+    --border: 220 10% 88%;
+    --input: 220 10% 95%;
+    --ring: 150 80% 40%;
 
     --radius: 0.75rem;
 
     --gradient-primary: linear-gradient(
       135deg,
-      hsl(150 100% 50%),
-      hsl(160 100% 45%)
+      hsl(150 80% 40%),
+      hsl(160 75% 38%)
     );
     --gradient-card: linear-gradient(
       135deg,
-      hsl(220 20% 10%),
-      hsl(220 18% 12%)
+      hsl(0 0% 98%),
+      hsl(220 10% 96%)
     );
 
-    --shadow-glow: 0 0 40px hsl(150 100% 50% / 0.15);
-    --shadow-card: 0 4px 20px hsl(220 26% 6% / 0.4);
+    --shadow-glow: 0 0 40px hsl(150 80% 40% / 0.1);
+    --shadow-card: 0 4px 20px hsl(220 10% 20% / 0.08);
   }
 }
 
@@ -74,7 +74,7 @@ All colors MUST be HSL.
   }
 
   .card-blur {
-    @apply bg-card/30 backdrop-blur-md border-border/50;
+    @apply bg-card/60 backdrop-blur-md border-border/50;
   }
 }
 
@@ -88,13 +88,13 @@ body::before {
   height: 100%;
   background: radial-gradient(
       circle at top left,
-      rgba(var(--primary-rgb), 0.1),
-      transparent 40%
+      rgba(var(--primary-rgb), 0.35),
+      transparent 55%
     ),
     radial-gradient(
       circle at bottom right,
-      rgba(var(--accent-rgb), 0.1),
-      transparent 40%
+      rgba(var(--accent-rgb), 0.35),
+      transparent 55%
     );
   pointer-events: none;
   z-index: -1;

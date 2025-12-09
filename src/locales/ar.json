@@ -39,32 +39,49 @@
       }
     }
   },
+
   "registration": {
-    "title": "نوفا ستارت-أب",
-    "description": "مساحة انطلاقتك نحو النجاح: تعلّم كيف تحوّل فكرتك إلى مشروع حقيقي ومؤثّر من خلال قصص ملهمة ورؤى الخبراء.",
+    "title": "إنوبرونور تيارت",
+    "description": " حوّل فكرتك من مجرد مشكلة إلى نموذج أولي جاهز للعرض في 4 أيام فقط من الابتكار والتدريب المكثف!",
     "formTitle": "نموذج التسجيل",
+
     "fullName": "الاسم الكامل",
     "fullNamePlaceholder": "أدخل اسمك الكامل",
+
     "phone": "رقم الهاتف",
     "phonePlaceholder": "مثال: 0123456789",
+
     "email": "البريد الإلكتروني",
-    "emailPlaceholder": "بريدك@الجامعة.edu",
+    "emailPlaceholder": "example@university.edu",
+
     "speciality": "التخصص الجامعي",
     "specialityPlaceholder": "مثال: علوم الحاسوب",
-    "eventReason": "ما الذي دفعك للحضور إلى هذا الحدث؟",
-    "eventReasonPlaceholder": "شارك ما الذي دفعك للحضور إلى هذا الحدث...",
-    "hasProject": "هل لديك مشروع تعمل عليه الآن؟",
-    "hasProjectPlaceholder": "اختر نعم أو لا",
+
+    "year": "السنة الجامعية",
+    "yearPlaceholder": "اختر سنتك",
+    "L1": "L1",
+    "L2": "L2",
+    "L3": "L3",
+    "M1": "M1",
+    "M2": "M2",
+    "graduate": "متخرج",
+
+    "previousEvents": "هل شاركت سابقًا في فعاليات حول ريادة الأعمال؟",
+    "previousEventsPlaceholder": "اختر نعم أو لا",
+
+    "mainObjective": "ما هو هدفك الأساسي من حضور إنوبرونور تيارت؟",
+    "mainObjectivePlaceholder": "اكتب هدفك هنا...",
+
     "yes": "نعم",
     "no": "لا",
-    "challenges": "ما هي المشاكل أو التحدّيات التي تواجهها حاليًا؟",
-    "challengesPlaceholder": "صف المشاكل أو التحدّيات التي تواجهها حاليًا...",
     "submit": "إرسال التسجيل"
   },
+
   "success": {
     "title": "تم بنجاح!",
     "message": "تم تقديم تسجيلك بنجاح."
   },
+
   "countdown": {
     "title": "العد التنازلي للحدث",
     "days": "أيام",

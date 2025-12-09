@@ -1,20 +1,17 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import RegistrationForm from "@/components/RegistrationForm";
-import { DepartmentCards } from "@/components/DepartmentCards";
-import { DepartmentReasonDialog } from "@/components/DepartmentReasonDialog";
 import { SuccessMessage } from "@/components/SuccessMessage";
 import Countdown from "@/components/Countdown";
-import clubLogo from "@/assets/club-logo.png";
 
 interface FormData {
   name: string;
   number: string;
   email: string;
   speciality: string;
-  eventReason: string;
-  hasProject: string;
-  challenges: string;
+  year: string;
+  previousEvents: string;
+  mainObjective: string;
 }
 
 const Index = () => {
@@ -23,9 +20,9 @@ const Index = () => {
     number: "",
     email: "",
     speciality: "",
-    eventReason: "",
-    hasProject: "",
-    challenges: "",
+    year: "",
+    previousEvents: "",
+    mainObjective: "",
   });
 
   const [submitted, setSubmitted] = useState(false);
@@ -42,20 +39,20 @@ const Index = () => {
       number: "",
       email: "",
       speciality: "",
-      eventReason: "",
-      hasProject: "",
-      challenges: "",
+      year: "",
+      previousEvents: "",
+      mainObjective: "",
     });
     setSubmitted(false);
   };
 
   return (
-    <div className="min-h-screen py-12 ">
-      <div className="max-w-4xl mx-auto space-y-8">
-        {/* Logo Section */}
-        <div className=" animate-fade-in">
+    <div className="min-h-screen py-12">
+      <div className="max-w-4xl mx-auto space-y-8 px-4">
+        {/* Header Section */}
+        <div className="animate-fade-in">
           <div className="text-start">
-            <h1 className="text-6xl md:text-6xl font-bold  text-white mb-6">
+            <h1 className="text-6xl md:text-6xl font-bold text-foreground mb-6">
               {t("registration.title")}
             </h1>
             <p className="text-muted-foreground mt-2">
@@ -69,19 +66,17 @@ const Index = () => {
           <Countdown />
         </div>
 
+        {/* Form or Success Message */}
         {submitted ? (
           <SuccessMessage onReset={handleReset} />
         ) : (
-          <>
-            {/* Registration Form */}
-            <div className="animate-fade-in">
-              <RegistrationForm
-                onSubmit={handleSubmit}
-                formData={formData}
-                setFormData={setFormData}
-              />
-            </div>
-          </>
+          <div className="animate-fade-in">
+            <RegistrationForm
+              onSubmit={handleSubmit}
+              formData={formData}
+              setFormData={setFormData}
+            />
+          </div>
         )}
       </div>
     </div>

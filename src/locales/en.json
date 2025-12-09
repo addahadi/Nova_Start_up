@@ -39,32 +39,49 @@
       }
     }
   },
+
   "registration": {
-    "title": "Nova start-up",
-    "description": "A space to launch your path to success: Learn how to turn your idea into a real and impactful project through inspiring stories and expert insights",
+    "title": "Innoprenneur Tiaret",
+    "description": "Accelerate your idea from a problem to a pitch-ready prototype in just 4 days of intense innovation and coaching!",
     "formTitle": "Registration Form",
+
     "fullName": "Full Name",
     "fullNamePlaceholder": "Enter your full name",
+
     "phone": "Phone Number",
     "phonePlaceholder": "+1 234 567 8900",
+
     "email": "Email",
     "emailPlaceholder": "your.email@university.edu",
+
     "speciality": "University Speciality",
     "specialityPlaceholder": "e.g., Computer Science",
-    "eventReason": "What motivated you to attend this event?",
-    "eventReasonPlaceholder": "Share what motivated you to attend this event...",
-    "hasProject": "Do you have a project you're currently working on?",
-    "hasProjectPlaceholder": "Select Yes or No",
+
+    "year": "University Year",
+    "yearPlaceholder": "Select your level",
+    "L1": "L1",
+    "L2": "L2",
+    "L3": "L3",
+    "M1": "M1",
+    "M2": "M2",
+    "graduate": "Graduate",
+
+    "previousEvents": "Have you ever participated in entrepreneurship events before?",
+    "previousEventsPlaceholder": "Select Yes or No",
+
+    "mainObjective": "Main objective for attending Innoprenneur Tiaret",
+    "mainObjectivePlaceholder": "Write your objective here...",
+
     "yes": "Yes",
     "no": "No",
-    "challenges": "What problems or challenges are you currently facing?",
-    "challengesPlaceholder": "Describe the problems or challenges you're facing...",
     "submit": "Submit Registration"
   },
+
   "success": {
     "title": "Success!",
     "message": "Your registration has been submitted successfully."
   },
+
   "countdown": {
     "title": "Countdown to Event",
     "days": "Days",

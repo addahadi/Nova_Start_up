@@ -49,37 +49,39 @@ export const Countdown = () => {
 
   return (
     <div className="text-center space-y-4">
-
       <div className="grid grid-cols-4 gap-4 justify-center">
-        <div className="bg-gradient-primary/20 backdrop-blur-md border border-border/50 rounded-lg p-4">
-          <div className="text-3xl md:text-4xl font-bold text-white">
+        <div className="bg-white/70 dark:bg-gradient-primary/10 backdrop-blur-md border border-gray-300 dark:border-border/50 rounded-lg p-4 shadow-sm">
+          <div className="text-3xl md:text-4xl font-bold text-black dark:text-primary">
             {String(time.days).padStart(2, "0")}
           </div>
-          <div className="text-sm text-muted-foreground mt-2">
+          <div className="text-sm text-gray-600 dark:text-muted-foreground mt-2">
             {t("countdown.days")}
           </div>
         </div>
-        <div className="bg-gradient-primary/20 backdrop-blur-md border border-border/50 rounded-lg p-4">
-          <div className="text-3xl md:text-4xl font-bold text-white">
+
+        <div className="bg-white/70 dark:bg-gradient-primary/10 backdrop-blur-md border border-gray-300 dark:border-border/50 rounded-lg p-4 shadow-sm">
+          <div className="text-3xl md:text-4xl font-bold text-black dark:text-primary">
             {String(time.hours).padStart(2, "0")}
           </div>
-          <div className="text-sm text-muted-foreground mt-2">
+          <div className="text-sm text-gray-600 dark:text-muted-foreground mt-2">
             {t("countdown.hours")}
           </div>
         </div>
-        <div className="bg-gradient-primary/20 backdrop-blur-md border border-border/50 rounded-lg p-4">
-          <div className="text-3xl md:text-4xl font-bold text-white">
+
+        <div className="bg-white/70 dark:bg-gradient-primary/10 backdrop-blur-md border border-gray-300 dark:border-border/50 rounded-lg p-4 shadow-sm">
+          <div className="text-3xl md:text-4xl font-bold text-black dark:text-primary">
             {String(time.minutes).padStart(2, "0")}
           </div>
-          <div className="text-sm text-muted-foreground mt-2">
+          <div className="text-sm text-gray-600 dark:text-muted-foreground mt-2">
             {t("countdown.minutes")}
           </div>
         </div>
-        <div className="bg-gradient-primary/20 backdrop-blur-md border border-border/50 rounded-lg p-4">
-          <div className="text-3xl md:text-4xl font-bold text-white">
+
+        <div className="bg-white/70 dark:bg-gradient-primary/10 backdrop-blur-md border border-gray-300 dark:border-border/50 rounded-lg p-4 shadow-sm">
+          <div className="text-3xl md:text-4xl font-bold text-black dark:text-primary">
             {String(time.seconds).padStart(2, "0")}
           </div>
-          <div className="text-sm text-muted-foreground mt-2">
+          <div className="text-sm text-gray-600 dark:text-muted-foreground mt-2">
             {t("countdown.seconds")}
           </div>
         </div>
