@@ -52,7 +52,7 @@ const Index = () => {
         {/* Header Section */}
         <div className="animate-fade-in">
           <div className="text-start">
-            <h1 className="text-6xl md:text-6xl font-bold text-foreground mb-6">
+            <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6">
               {t("registration.title")}
             </h1>
             <p className="text-muted-foreground mt-2">
