@@ -21,15 +21,11 @@ export const Countdown = () => {
     const calculateCountdown = () => {
       const now = new Date();
 
-      // Calculate the next Wednesday at 9:00 AM
-      const currentDay = now.getDay();
-      const daysUntilWednesday = (3 - currentDay + 7) % 7 || 7;
+      // Set target date: 14th December at 9:00 AM
+      const targetDate = new Date(now.getFullYear(), 11, 14, 9, 0, 0);
+      // Month is 0-indexed, so 11 = December
 
-      const nextWednesday = new Date(now);
-      nextWednesday.setDate(now.getDate() + daysUntilWednesday);
-      nextWednesday.setHours(9, 0, 0, 0);
-
-      const difference = nextWednesday.getTime() - now.getTime();
+      const difference = targetDate.getTime() - now.getTime();
 
       if (difference > 0) {
         setTime({
@@ -38,6 +34,9 @@ export const Countdown = () => {
           minutes: Math.floor((difference / 1000 / 60) % 60),
           seconds: Math.floor((difference / 1000) % 60),
         });
+      } else {
+        // Countdown finished
+        setTime({ days: 0, hours: 0, minutes: 0, seconds: 0 });
       }
     };
 
@@ -46,6 +45,7 @@ export const Countdown = () => {
 
     return () => clearInterval(interval);
   }, []);
+
 
   return (
     <div className="text-center space-y-4">
